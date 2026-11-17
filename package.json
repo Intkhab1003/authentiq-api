@@ -1,0 +1,20 @@
+{
+  "name": "authentiq-api",
+  "version": "1.0.0",
+  "description": "Educational Login Validation REST API built with Node.js and Express.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["nodejs", "express", "authentication", "rest-api", "dotenv"],
+  "author": "Khabii",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
